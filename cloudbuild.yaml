@@ -1,4 +1,4 @@
-# Copyright 2018 Google LLC
+ Copyright 2018 Google LLC
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -45,7 +45,7 @@ steps:
   args:
   - clone
   - --recurse-submodules
-  - git@github.com:charan-vb/hello-cloudbuild-env.git
+  - git@github.com:charanvb/hello-cloudbuild-env.git
   volumes:
   - name: ssh
     path: /root/.ssh
